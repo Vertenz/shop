@@ -89,11 +89,12 @@ input:active
 .brandName
   font-size: 1.9rem
   font-weight: 300
-  +flex-line()
   text-transform: uppercase
   padding-right: 10%
   &__href
     margin-right: 27px
+  &_header
+    +flex-line()
 .menu
   margin-bottom: 15px
   &__ul
@@ -245,6 +246,7 @@ input:active
     grid-column: span 2
     background-image: url("../images/sale30.jpg")
     background-repeat: no-repeat
+    filter: brightness(0.9)
     &__text
       padding-top: 146px
       padding-left: 40px
@@ -265,5 +267,74 @@ input:active
     padding-left: 67px
 .lure
   margin-top: 97px
-
-/* TODO 1) задний фон
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  filter: contrast(0.6)
+.feedback
+  background-image: url("../images/subscribe.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  border-right: 0.5px solid lightgrey
+  display: flex
+  flex-direction: column
+  align-items: center
+  &__text-box
+    display: flex
+    align-items: center
+    padding-top: 120px
+  &__text
+    width: 340px
+    margin-left: 60px
+  &__name
+    text-transform: capitalize
+    font-size: 1.14rem
+  &__city
+    font-size: 0.8rem
+.pagination
+  display: flex
+  padding-bottom: 156px
+  padding-top: 25px
+  &__block
+    background-color: #d6d6d6
+    width: 36px
+    height: 5px
+    margin-right: 15px
+    &_activ
+      background-color: $main-color
+.subscribe
+  background-image: url("../images/subscribe2.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  border-left: 0.5px solid lightgrey
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  text-align: center
+  &__text-box
+    padding-bottom: 35px
+  &__h
+    font-size: 1.7rem
+    text-transform: uppercase
+  &__text
+    font-size: 1rem
+    text-transform: uppercase
+  &__form
+    position: relative
+  &__email
+    padding: 10px 48px 10px 28px
+    background-color: #e1e1e1
+    border-radius: 23px
+    text-transform: capitalize
+  &__button
+    background-color: $main-color
+    color: #ffffff
+    border-bottom-right-radius: 30px
+    border-top-right-radius: 30px
+    padding: 10px 20px 10px 20px
+    position: absolute
+    left: 193px
+    top: 0
+.lower
+  display: grid
+  grid-template-columns: 427px 160px 160px 160px
