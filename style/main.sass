@@ -74,7 +74,62 @@ input:active
     +flex-line()
   &__cart
     padding: 5px
-
+  &__browse-box
+    display: flex
+    position: relative
+    /*&:hover .drop
+      display: flex
+  &__brow:hover .drop
+    display: flex
+  &__cart-box
+    position: relative
+    &:hover .drop
+      display: flex !important
+.header__summary_browse:hover
+  display: flex
+.purchases
+  display: grid
+  grid-template-columns: 1fr 2fr 1fr
+  grid-template-rows: 1fr 1fr
+  align-items: center
+  grid-gap: 15px
+  &__h
+    text-transform: uppercase
+    font-size: 1.16rem
+    font-weight: bold
+    margin-bottom: 10px
+  &__star-box
+    display: flex
+    color: gold
+    margin-bottom: 12px
+  &__quantity-box
+    display: flex
+    color: $main-color()
+  &__total-box
+    display: flex
+    justify-content: space-between
+    padding: 35px 0
+.button-checkout
+  text-transform: uppercase
+  font-size: 1rem
+  font-weight: bold
+  background-color: #ffffff
+  border: 1px solid #ffffff
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-bottom: 11px
+.button-href
+  padding: 17px 70px
+  width: max-content
+.total__text
+  text-transform: uppercase
+  font-size: 1.14rem
+  font-weight: bold
+.total__price
+  @extend .total__text
+.quantity
+  margin-right: 3.5px
 .cartHref
   margin-right: 21px
 .header__details[open] > summary::after
@@ -84,7 +139,11 @@ input:active
 .header__details_account[open] > summary::after
   color: white
 .logo
+  transition: 3s
+  animation: 3s
   &_header
+    padding-right: 18.5%
+  &_lower
     padding-right: 18.5%
 .brandName
   font-size: 1.9rem
@@ -95,6 +154,8 @@ input:active
     margin-right: 27px
   &_header
     +flex-line()
+  &_lower
+    display: flex !important
 .menu
   margin-bottom: 15px
   &__ul
@@ -103,12 +164,74 @@ input:active
   &__list
     padding: 10px
     font-weight: bold
+    margin-right: 10px
+    position: relative
+    border-bottom: 1px solid #ffffff
+    &:hover .drop
+      display: flex
+  &__href
     text-transform: uppercase
-    margin-right: 31px
+    padding: 25px
+.drop
+  border-radius: 5px
+  background-color: #ffffff
+  border: 1px solid #ececec
+  padding: 12px 20px
+  display: none
+  position: absolute
+  top: 51px
+  left: -5px
+  z-index: 1
+  &:before
+    content: ''
+    width: 14px
+    height: 14px
+    background-color: #ffffff
+    position: absolute
+    transform: rotate(45deg)
+    top: -8px
+    left: 49px
+    border-top: 1px solid #e8e8e8e8
+    border-left: 1px solid #e8e8e8e8
+  &__flex
+    width: 235px
+    margin-right: 46px
+  &__flex:last-of-type
+    margin-right: 0
+  &__ul
+    list-style: none
+  &__h
+    border-bottom: 1px solid #e8e8e8
+    font-size: 1rem
+    letter-spacing: 0.35px
+    color: #232323
+    text-transform: uppercase
+    padding-bottom: 8px
+    padding-top: 8px
+    margin-bottom: 8px
+  &__link
+    font-size: 1rem
+    line-height: 2
+    letter-spacing: 0.35px
+    color: #4f4f4f
+  &__img
+    width: 227px
+    height: 150px
+  &__right
+    right: 0
+    left: auto
+    &:before
+      right: 61px
+      left: auto
+  &__purchases
+    background-color: rgb(232, 232, 232, 0.9)
+    flex-direction: column
+    left: -33px
 .promo
   background-color: #e8e8e8
   background-image: url("../images/Layer_24.jpg")
   background-position: right
+  background-repeat: no-repeat
   height: 620px
   display: flex
   align-items: center
@@ -132,6 +255,8 @@ input:active
   grid-gap: 20px
   &__slider
     position: relative
+    background-color: $main-color
+    transition: 0.5s
     &_big
       grid-row: span 2
     &_men
@@ -161,6 +286,7 @@ input:active
     top: 5%
     text-transform: uppercase
     padding: 15px 20px 15px 20px
+    transition: 0.4s
   &__name
     font-size: 1.5rem
   &__category
@@ -180,6 +306,7 @@ input:active
   grid-gap: 30px
 .product
   position: relative
+  transition: 0.4s
   &:hover
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
   &:hover .product__img
@@ -230,6 +357,7 @@ input:active
     color: white
     text-transform: uppercase
     font-size: 1.14rem
+    transition: 0.5s
 .banner
   margin-top: 113px
   display: grid
@@ -295,7 +423,7 @@ input:active
   padding-bottom: 156px
   padding-top: 25px
   &__block
-    background-color: #d6d6d6
+    background-color: #ffffff
     width: 36px
     height: 5px
     margin-right: 15px
@@ -319,13 +447,13 @@ input:active
   &__text
     font-size: 1rem
     text-transform: uppercase
+    line-height: 1.63
   &__form
     position: relative
   &__email
-    padding: 10px 48px 10px 28px
+    padding: 10px 120px 10px 28px
     background-color: #e1e1e1
     border-radius: 23px
-    text-transform: capitalize
   &__button
     background-color: $main-color
     color: #ffffff
@@ -333,8 +461,60 @@ input:active
     border-top-right-radius: 30px
     padding: 10px 20px 10px 20px
     position: absolute
-    left: 193px
+    left: 232px
     top: 0
+    transition: 0.5s
 .lower
   display: grid
-  grid-template-columns: 427px 160px 160px 160px
+  grid-template-columns: 427px 1fr 1fr 1fr
+  grid-gap: 69px
+  margin-top: 109px
+  padding-bottom: 89px
+  &__h
+    font-size: 1.3rem
+    text-transform: uppercase
+    margin-top: 15px
+  &__ul
+    list-style: none
+    font-size: 1.14rem
+    margin-top: 54px
+  &__li
+    color: #898989
+    text-transform: capitalize
+    margin-top: 26px
+.description
+  &__text
+    color: #898989
+    font-size: 1rem
+    font-weight: 300
+    margin-top: 41px
+    line-height: 1.71
+    &_lower
+      @extend .description__text
+.logo-box
+  display: flex
+  align-items: center
+.footer
+  background-color: #e6e6e6
+  display: flex
+  justify-content: space-between
+  &__left
+    +flex-line
+    padding-top: 25px
+    padding-bottom: 25px
+  &__text
+    font-size: 1.14rem
+    color: #7a7a7a7a
+    line-height: 2.63
+  &__right
+    +flex-line()
+  &__href
+    margin-left: 8px
+  &__media
+    width: 32px
+    height: 32px
+    background-color: #ffffff
+    color: #b2b2b2b2
+    +flex-line()
+@import "_chekout"
+@import "_animation"

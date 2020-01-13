@@ -1,4 +1,3 @@
-<!-- TODO 1) настроить плавность выпадения и скрытия дроп элементов 2) настроить анимация всего 3) все ссылки должны быть рабочими -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/main.css">
-    <title>Brand</title>
+    <title>Checkout</title>
     <script src="https://kit.fontawesome.com/593e5f77cb.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -365,166 +364,85 @@
         </li>
     </ul>
 </nav>
-<section class="promo center">
-    <div class="promo__content">
-        <h1 class="promo__h">THE BRAND</h1>
-        <p class="promo__description">OF LUXERIOUS
-            <mark class="mark">FASHION</mark>
+<section class="bread-crumbs center">
+    <div class="bread-crumbs__promo">
+        <p class="bread-crumbs__text">
+            <mark class="mark">new arrives</mark>
         </p>
     </div>
+    <div class="bread-crumbs__link">
+        <a href="index.html" class="bread-crumbs__href">Home / </a>
+        <a href="#" class="bread-crumbs__href"> Men / </a>
+        <a href="#" class="bread-crumbs__href bread-crumbs__href_active"> new arrives</a>
+    </div>
 </section>
-<section class="promoFor center">
-    <div class="promoFor__slider promoFor__slider_big promoFor__slider_men">
-        <a href="#">
-            <div class="promoFor__textBox">
-                <h4 class="promoFor__name">hot deal</h4>
-                <h2 class="promoFor__category">
-                    <mark class="mark">for men</mark>
-                </h2>
+<section class="checkoutPage center">
+    <details open class="checkoutPage__details">
+        <summary class="checkoutPage__summary">01. Shipping Adress</summary>
+        <div class="checkoutPage__flex">
+            <div class="checkoutPage__guest">
+                <h4 class="checkoutPage__h">Check as a guest or register</h4>
+                <p class="checkoutPage__p">Register with us for future convenience</p>
+                <form action="#" class="checkoutPage__form">
+                    <div class="guest__box">
+                        <input type="checkbox" id="guest" class="guest"> <label for="guest" class="guest">checkout as
+                        guest</label>
+                    </div>
+                    <div class="register__box">
+                        <input type="checkbox" id="register" class="register"> <label for="register" class="register">registed</label>
+                    </div>
+                </form>
+                <h4 class="checkoutPage__h">register and save time!</h4>
+                <p class="checkoutPage__p">Register with us for future convenience</p>
+                <div class="plus">
+                    <p class="plus__p"><i class="fas fa-angle-double-right"></i>Fast and easy checkout</p>
+                    <p class="plus__p"><i class="fas fa-angle-double-right"></i>Easy access to your order history and
+                        status</p>
+                </div>
+                <div class="checkoutPage__button"><a href="#" class="checkoutPage__continue">Continue</a></div>
             </div>
-        </a>
-    </div>
-    <div class="promoFor__slider promoFor__slider_women">
-        <a href="#">
-            <div class="promoFor__textBox">
-                <h4 class="promoFor__name">30% offer</h4>
-                <h2 class="promoFor__category">
-                    <mark class="mark">women</mark>
-                </h2>
+            <div class="checkoutPage__guest">
+                <h4 class="checkoutPage__h">Already registed?</h4>
+                <p class="checkoutPage__p">Please log in below</p>
+                <form action="#" class="checkoutPage__form">
+                    <label for="email__checkout" class="email__label">EMAIL ADDRESS<em style="color: red">*</em>
+                    </label><input type="email" id="email__checkout" class="register__input" required>
+                    <label for="password" class="email__label">PASSWORD<em style="color: red">*</em>
+                    </label><input type="password" id="password" class="register__input" required>
+                </form>
+                <p class="register__fileds"><em>*</em>Required Fileds</p>
+                <div class="checkoutPage__button-box">
+                    <a href="#" class="checkoutPage__a-log">Log in</a>
+                    <a href="#" class="checkoutPage__forgot">Forgot Password ?</a>
+                </div>
             </div>
-        </a>
-    </div>
-    <div class="promoFor__slider promoFor__slider_big promoFor__slider_kids">
-        <a href="#">
-            <div class="promoFor__textBox">
-                <h4 class="promoFor__name">new arrivals</h4>
-                <h2 class="promoFor__category">
-                    <mark class="mark">for kids</mark>
-                </h2>
-            </div>
-        </a>
-    </div>
-    <div class="promoFor__slider promoFor__slider_accesories">
-        <a href="#">
-            <div class="promoFor__textBox">
-                <h4 class="promoFor__name">luxirous & trendy</h4>
-                <h2 class="promoFor__category">
-                    <mark class="mark">accesories</mark>
-                </h2>
-            </div>
-        </a>
-    </div>
-</section>
-<section class="text center">
-    <h3 class="text__h">Fetured Items</h3>
-    <p class="text__p">Shop for items based on what we featured in this week</p>
-</section>
-<section class="product-box center">
-    <div class="product">
-        <a href="#"><img class="product__img" src="images/productNew1.jpg" alt="T-Shirt"></a>
-        <div class="product__text">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <div class="product__price">$52.00</div>
         </div>
-        <a href="#" class="product__add"><i class="fas fa-cart-plus"></i>Add to Cart</a>
-    </div>
-    <div class="product">
-        <a href="#"><img class="product__img" src="images/productNew2.jpg" alt="T-Shirt"></a>
-        <div class="product__text">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <div class="product__price">$52.00</div>
-        </div>
-        <a href="#" class="product__add"><i class="fas fa-cart-plus"></i>Add to Cart</a>
-    </div>
-    <div class="product">
-        <a href="#"><img class="product__img" src="images/productNew3.jpg" alt="T-Shirt"></a>
-        <div class="product__text">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <div class="product__price">$52.00</div>
-        </div>
-        <a href="#" class="product__add"><i class="fas fa-cart-plus"></i>Add to Cart</a>
-    </div>
-    <div class="product">
-        <a href="#"><img class="product__img" src="images/productNew4.jpg" alt="T-Shirt"></a>
-        <div class="product__text">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <div class="product__price">$52.00</div>
-        </div>
-        <a href="#" class="product__add"><i class="fas fa-cart-plus"></i>Add to Cart</a>
-    </div>
-    <div class="product">
-        <a href="#"><img class="product__img" src="images/productNew5.jpg" alt="T-Shirt"></a>
-        <div class="product__text">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <div class="product__price">$52.00</div>
-        </div>
-        <a href="#" class="product__add"><i class="fas fa-cart-plus"></i>Add to Cart</a>
-    </div>
-    <div class="product">
-        <a href="#"><img class="product__img" src="images/productNew6.jpg" alt="T-Shirt"></a>
-        <div class="product__text">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <div class="product__price">$52.00</div>
-        </div>
-        <a href="#" class="product__add"><i class="fas fa-cart-plus"></i>Add to Cart</a>
-    </div>
-    <div class="product">
-        <a href="#"><img class="product__img" src="images/productNew7.jpg" alt="T-Shirt"></a>
-        <div class="product__text">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <div class="product__price">$52.00</div>
-        </div>
-        <a href="#" class="product__add"><i class="fas fa-cart-plus"></i>Add to Cart</a>
-    </div>
-    <div class="product">
-        <a href="#"><img class="product__img" src="images/productNew8.jpg" alt="T-Shirt"></a>
-        <div class="product__text">
-            <a href="#" class="product__name">Mango People T-shirt</a>
-            <div class="product__price">$52.00</div>
-        </div>
-        <a href="#" class="product__add"><i class="fas fa-cart-plus"></i>Add to Cart</a>
-    </div>
-</section>
-<section class="button-box">
-    <div class="button center">
-        <a href="#"><p class="button-box__button">browse&nbsp;all&nbsp;product&nbsp;<i
-                class="fas fa-long-arrow-alt-right"></i></p></a>
-    </div>
-</section>
-<section class="banner center">
-    <div class="banner__slider">
-        <div class="banner__slider__text">
-            <h3 class="banner__name">30%
-                <mark class="mark">offer</mark>
-            </h3>
-            <p class="banner__p">for women</p>
-        </div>
-    </div>
-    <!-- TODO решить проблему с расширением блока при отсутсивии иконок -->
-    <div class="benefits">
-        <h2 class="benefits__h">
-            <mark class="mark"><i class="fas fa-truck-moving fas__logo"></i></mark>
-            Free Delivery
-        </h2>
-        <p class="benefits__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-            extensive models.</p>
-    </div>
-    <div class="benefits">
-        <h2 class="benefits__h">
-            <mark class="mark"><i class="fas fa-percent fas__logo"></i></mark>
-            Sales & discounts
-        </h2>
-        <p class="benefits__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-            extensive models.</p>
-    </div>
-    <div class="benefits">
-        <h2 class="benefits__h">
-            <mark class="mark"><i class="fas fa-crown fas__logo"></i></mark>
-            Quality assurance
-        </h2>
-        <p class="benefits__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-            extensive models.</p>
-    </div>
+    </details>
+    <details class="checkoutPage__details">
+        <summary class="checkoutPage__summary">02. BILLING INFORMATION</summary>
+        <div class="checkoutPage__guest"></div>
+        <div class="checkoutPage__registed"></div>
+    </details>
+    <details>
+        <summary class="checkoutPage__summary">03. SHIPPING INFORMATION</summary>
+        <div class="checkoutPage__guest"></div>
+        <div class="checkoutPage__registed"></div>
+    </details>
+    <details class="checkoutPage__details">
+        <summary class="checkoutPage__summary">04. SHIPPING METHOD</summary>
+        <div class="checkoutPage__guest"></div>
+        <div class="checkoutPage__registed"></div>
+    </details>
+    <details class="checkoutPage__details">
+        <summary class="checkoutPage__summary">05. PAYMENT METHOD</summary>
+        <div class="checkoutPage__guest"></div>
+        <div class="checkoutPage__registed"></div>
+    </details>
+    <details class="checkoutPage__details">
+        <summary class="checkoutPage__summary">06. ORDER REVIEW</summary>
+        <div class="checkoutPage__guest"></div>
+        <div class="checkoutPage__registed"></div>
+    </details>
 </section>
 <section class="lure">
     <div class="feedback">

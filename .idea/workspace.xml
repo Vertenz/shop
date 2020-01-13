@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e61b8d8-f579-49fe-8f85-3cd3dcd54b05" name="Default Changelist" comment="" />
+    <list default="true" id="7e61b8d8-f579-49fe-8f85-3cd3dcd54b05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ich.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/__chekout.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/_mixin.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/_mixin.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.sass" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VTdROEnOuPz195snc7cLpDwm2H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,8 +39,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/GitHub/htmlCssStudying/code/checkout.html" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -32,7 +51,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -45,6 +64,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -63,6 +83,16 @@
       <workItem from="1578079330137" duration="16159000" />
       <workItem from="1578156426046" duration="10146000" />
       <workItem from="1578182878191" duration="121000" />
+      <workItem from="1578218149475" duration="179000" />
+      <workItem from="1578224194303" duration="338000" />
+      <workItem from="1578261167547" duration="1189000" />
+      <workItem from="1578262390212" duration="357000" />
+      <workItem from="1578497379702" duration="1050000" />
+      <workItem from="1578502073958" duration="9751000" />
+      <workItem from="1578560606846" duration="623000" />
+      <workItem from="1578600463717" duration="10882000" />
+      <workItem from="1578774865076" duration="7653000" />
+      <workItem from="1578839974263" duration="29437000" />
     </task>
     <servers />
   </component>
@@ -70,18 +100,28 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="588" y="215" width="800" height="684" key="#Notifications" timestamp="1578261528032">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="215" width="800" height="684" key="#Notifications/67.27.1853.1053@67.27.1853.1053" timestamp="1578261528032" />
     <state x="832" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578078822183">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="832" y="168" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1578078822183" />
-    <state x="791" y="207" key="EditFileWatcherDialog" timestamp="1577281096089">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="517" y="194" width="906" height="718" key="EditFileWatcherDialog" timestamp="1578262344801">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="791" y="207" key="EditFileWatcherDialog/0.0.1536.864@0.0.1536.864" timestamp="1577281096089" />
-    <state x="277" y="76" key="SettingsEditor" timestamp="1578182942167">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="517" y="194" width="906" height="718" key="EditFileWatcherDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578262344801" />
+    <state x="783" y="318" width="424" height="491" key="FileChooserDialogImpl" timestamp="1578869889053">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="783" y="318" width="424" height="491" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578869889053" />
+    <state x="401" y="120" width="1022" height="737" key="SettingsEditor" timestamp="1578845647659">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1578182942167" />
+    <state x="401" y="120" width="1022" height="737" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578845647659" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1578167000737">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -90,5 +130,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="809" y="198" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1577784849989" />
+    <state x="188" y="259" key="search.everywhere.popup" timestamp="1578779794691">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="188" y="259" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1578779794691" />
   </component>
 </project>

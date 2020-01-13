@@ -1,0 +1,75 @@
+@import "var"
+@import "mixin"
+@-webkit-keyframes color-change-2x
+  20%
+    background: #19dcea
+
+  100%
+    background: #b22cff
+
+
+@keyframes color-change-2x
+  20%
+    background: #19dcea
+
+  100%
+    background: #b22cff
+
+@keyframes logo-rotate
+  25%
+    transform: rotate(95deg)
+  43%
+    transform: rotate(78deg)
+  63%
+    transform: rotate(95deg)
+
+
+.header:hover
+  -webkit-animation: color-change-2x 5s linear infinite alternate both
+  animation: color-change-2x 5s linear infinite alternate both
+.header__summary_account:hover
+  +animation()
+.header__cart:hover
+  outline: 1px solid #e8e8e8
+.menu__list:hover
+  border-bottom: 1px solid $main-color
+.drop__link:hover
+  color: $main-color
+.promoFor__slider:hover .promoFor__textBox
+  border: 1.5px solid $main-color
+  background-color: #fff6fe
+.promoFor__slider:hover
+  transform: scale(1.01,1.01)
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+.button-box__button:hover
+  +animation()
+.pagination__block:hover
+  background-color: $main-color
+  transform: scale(1.01, 1.01)
+.subscribe__button:hover
+  +animation()
+  outline: none
+  border: none
+.logo_header:hover
+  transform: rotate(90deg)
+.logo_lower:hover
+  animation: logo-rotate  3s
+.lower__li:hover
+  color: $main-color()
+.footer__media:hover
+  +animation()
+.purchases__cross:hover
+  color: $main-color
+.button-checkout:hover
+  +animation()
+.button-checkout:hover .button-href
+  color: $main-color
+.bread-crumbs__href:hover
+  color: $main-color
+.checkoutPage__continue:hover
+  +animation()
+.checkoutPage__a-log:hover
+  +animation()
+.checkoutPage__forgot:hover
+  color: $main-color
+
